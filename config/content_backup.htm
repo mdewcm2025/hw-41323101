@@ -47,27 +47,10 @@ Y:\tmp\w1&gt;git init</pre>
 <p>將 w1 目錄設定為 git 倉儲目錄之後, 就可以在 w1 目錄中儲存檔案, 每次改版或重要改版階段完成之後, 可以再利用 git 指令對改版內容進行: 新增 - 提交 - 推送等流程, 版本新增指令為 git add, 提交為 git commit, 而推送則為 git push</p>
 <p>git add 指令會將改版的資料放入暫存區, 準備進行提交, 而提交過程需要綁定修改者的資訊, 最後推送則需要推送者連通至遠端系統間的認證資訊. 實際操作指令如下:</p>
 <div>
-<div class="syntaxhighlighter js" id="highlighter_576605">
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr style="height: 55.9792px;">
-<td class="gutter" style="height: 55.9792px;">
-<div class="line number1 index0 alt2">1</div>
-<div class="line number2 index1 alt1">2</div>
-<div class="line number3 index2 alt2">3</div>
-</td>
-<td class="code" style="height: 55.9792px;">
-<div class="container">
 <div class="line number1 index0 alt2">
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">git add .
 git commit -m "提交訊息"
 git push</pre>
-</div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 <p>但由於截至目前, 還沒有註記使用者的帳號與電子郵箱, 也還沒有設定推送的目的地, 因此先在可攜系統中設定使用者帳號:</p>
