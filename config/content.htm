@@ -26,6 +26,7 @@
 <p style="padding-left: 90px;">利用 uwsgi 配置分組學員執行 cmsimde 動態內容管理系統編輯</p>
 <p style="padding-left: 90px;">設法將 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>) 與 cmsimde 網際內容管理系統整合</p>
 <h2>Git</h2>
+<h3>W1</h3>
 <h1>Tasks</h1>
 <h3>task1</h3>
 <h4>自行製作可攜程式系統</h4>
@@ -240,8 +241,7 @@ http {
         }
     }
 }</pre>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">
-from waitress import serve
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from waitress import serve
 from cmsimde import flaskapp
 serve(flaskapp.app, listen='localhost:8080', threads=8)
 </pre>
